@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS2-PARABANK,Chrome 122.0.0.0,,,04-03-2024 20:03:55,04-03-2024 20:09:54,5m - 59.335s,FAILED
+,,,,,,,
+Test Cases/PARA BANK/PB_TC_01_Access the Parabank website,Chrome 122.0.0.0,User opens the parabank website,,04-03-2024 20:03:55,04-03-2024 20:04:04,9.413s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,04-03-2024 20:03:55,04-03-2024 20:03:59,3.390s,PASSED
+"navigateToUrl(""https://parabank.parasoft.com/parabank/index.htm"")",Chrome 122.0.0.0,,,04-03-2024 20:03:59,04-03-2024 20:04:04,5.318s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/PARA BANK/Page_ParaBank Home page/Logo""), 1)",Chrome 122.0.0.0,,,04-03-2024 20:04:04,04-03-2024 20:04:04,0.477s,PASSED
+,,,,,,,
+Test Cases/PARA BANK/PB_TC_02_Login,Chrome 122.0.0.0,,,04-03-2024 20:04:04,04-03-2024 20:04:15,10.701s,PASSED
+"callTestCase(findTestCase(""PARA BANK/PB_TC_01_Access the Parabank website""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 20:04:05,04-03-2024 20:04:10,5.209s,PASSED
+"setText(findTestObject(""Object Repository/PARA BANK/Page_ParaBank  Welcome  Online Banking/input_Username_username""), ""admin"")",Chrome 122.0.0.0,,,04-03-2024 20:04:10,04-03-2024 20:04:11,0.813s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PARA BANK/Page_ParaBank  Welcome  Online Banking/input_Password_password""), ""hUKwJTbofgPskEWN4pMTBw=="")",Chrome 122.0.0.0,,,04-03-2024 20:04:11,04-03-2024 20:04:11,0.513s,PASSED
+"click(findTestObject(""Object Repository/PARA BANK/Page_ParaBank  Welcome  Online Banking/Login button""))",Chrome 122.0.0.0,,,04-03-2024 20:04:11,04-03-2024 20:04:15,3.379s,PASSED
+"verifyTextPresent("""", false)",Chrome 122.0.0.0,,,04-03-2024 20:04:15,04-03-2024 20:04:15,0.381s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,04-03-2024 20:04:15,04-03-2024 20:04:15,0.278s,PASSED
+,,,,,,,
+Test Cases/PARA BANK/PB_TC_03_Open account_SelectMethod_SAVINGS,Chrome 122.0.0.0,,,04-03-2024 20:06:39,04-03-2024 20:07:27,47.694s,FAILED
+"callTestCase(findTestCase(""PARA BANK/PB_TC_01_Access the Parabank website""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 20:06:39,04-03-2024 20:06:45,5.742s,PASSED
+"setText(findTestObject(""Object Repository/PARA BANK/Page_ParaBank  Welcome  Online Banking/input_Username_username""), ""admin"")",Chrome 122.0.0.0,,,04-03-2024 20:06:45,04-03-2024 20:06:46,0.810s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PARA BANK/Page_ParaBank  Welcome  Online Banking/input_Password_password""), ""hUKwJTbofgPskEWN4pMTBw=="")",Chrome 122.0.0.0,,,04-03-2024 20:06:46,04-03-2024 20:06:46,0.540s,PASSED
+"click(findTestObject(""Object Repository/PARA BANK/Page_ParaBank  Welcome  Online Banking/Login button""))",Chrome 122.0.0.0,,,04-03-2024 20:06:46,04-03-2024 20:06:50,3.873s,PASSED
+"verifyTextPresent("""", false)",Chrome 122.0.0.0,,,04-03-2024 20:06:50,04-03-2024 20:06:50,0.344s,PASSED
+"click(findTestObject(""Object Repository/PARA BANK/Page_ParaBank  Accounts Overview/Open New Account""))",Chrome 122.0.0.0,,,04-03-2024 20:06:50,04-03-2024 20:07:27,36.353s,FAILED
+,,,,,,,
+Test Cases/PARA BANK/PB_TC_03_Open account_SelectMethod_SAVINGS,Chrome 122.0.0.0,,,04-03-2024 20:08:40,04-03-2024 20:09:54,1m - 14.136s,FAILED
+"callTestCase(findTestCase(""PARA BANK/PB_TC_01_Access the Parabank website""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,04-03-2024 20:08:40,04-03-2024 20:08:47,6.608s,PASSED
+"setText(findTestObject(""Object Repository/PARA BANK/Page_ParaBank  Welcome  Online Banking/input_Username_username""), ""admin"")",Chrome 122.0.0.0,,,04-03-2024 20:08:47,04-03-2024 20:08:51,4.036s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/PARA BANK/Page_ParaBank  Welcome  Online Banking/input_Password_password""), ""hUKwJTbofgPskEWN4pMTBw=="")",Chrome 122.0.0.0,,,04-03-2024 20:08:51,04-03-2024 20:08:53,2.024s,PASSED
+"click(findTestObject(""Object Repository/PARA BANK/Page_ParaBank  Welcome  Online Banking/Login button""))",Chrome 122.0.0.0,,,04-03-2024 20:08:53,04-03-2024 20:08:56,3.614s,PASSED
+"verifyTextPresent("""", false)",Chrome 122.0.0.0,,,04-03-2024 20:08:56,04-03-2024 20:08:58,1.344s,PASSED
+"click(findTestObject(""Object Repository/PARA BANK/Page_ParaBank  Accounts Overview/Open New Account""))",Chrome 122.0.0.0,,,04-03-2024 20:08:58,04-03-2024 20:09:54,56.404s,FAILED
