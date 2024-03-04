@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS3-LambdatestPlayground" time="55.865" tests="3" failures="0" errors="0">
+   <testsuite name="TS3-LambdatestPlayground" tests="3" failures="0" errors="0" time="55.865" skipped="0" timestamp="04-03-2024T23:44:25" hostname="joris - DESKTOP-6JFGPOU" id="Test Suites/TS3-LambdatestPlayground">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\joris\\git\\FirstProject-Git\\KatalonPractice\\Reports\\20240304_234413\\TS3-LambdatestPlayground\\20240304_234417"/>
+         <property name="logFiles" value="C:\\Users\\joris\\git\\FirstProject-Git\\KatalonPractice\\Reports\\20240304_234413\\TS3-LambdatestPlayground\\20240304_234417\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="joris - DESKTOP-6JFGPOU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.6261.95"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="sessionId" value="09e607d5cc13c39137b822efc014cbb9"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/LambdaTestPlayground/TC01_Access ecommerce website" time="16.151" classname="Test Cases/LambdaTestPlayground/TC01_Access ecommerce website" status="PASSED">
+         <system-out><![CDATA[04-03-2024T23:44:26 - [TEST_CASE][PASSED] - Test Cases/LambdaTestPlayground/TC01_Access ecommerce website: Test Cases/LambdaTestPlayground/TC01_Access ecommerce website
+
+04-03-2024T23:44:26 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T23:44:27 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+04-03-2024T23:44:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T23:44:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T23:44:29 - [TEST_STEP][PASSED] - navigateToUrl("https://ecommerce-playground.lambdatest.io/"): Navigate to 'https://ecommerce-playground.lambdatest.io/' successfully
+
+04-03-2024T23:44:42 - [MESSAGE][PASSED] - Navigate to 'https://ecommerce-playground.lambdatest.io/' successfully
+
+04-03-2024T23:44:42 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Ecommerce/Page_Your Store/Logo"), 0): Object 'Object Repository/Ecommerce/Page_Your Store/Logo' is present
+
+04-03-2024T23:44:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-03-2024T23:44:42 - [MESSAGE][PASSED] - Object 'Object Repository/Ecommerce/Page_Your Store/Logo' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LambdaTestPlayground/TC02_Successful Login" time="22.864" classname="Test Cases/LambdaTestPlayground/TC02_Successful Login" status="PASSED">
+         <system-out><![CDATA[04-03-2024T23:44:42 - [TEST_CASE][PASSED] - Test Cases/LambdaTestPlayground/TC02_Successful Login: Test Cases/LambdaTestPlayground/TC02_Successful Login
+
+04-03-2024T23:44:42 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LambdaTestPlayground/TC01_Access ecommerce website"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LambdaTestPlayground/TC01_Access ecommerce website' successfully
+
+04-03-2024T23:44:42 - [TEST_CASE][PASSED] - Test Cases/LambdaTestPlayground/TC01_Access ecommerce website: Test Cases/LambdaTestPlayground/TC01_Access ecommerce website
+
+04-03-2024T23:44:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T23:44:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-03-2024T23:44:42 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+04-03-2024T23:44:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T23:44:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T23:44:43 - [TEST_STEP][PASSED] - navigateToUrl("https://ecommerce-playground.lambdatest.io/"): Navigate to 'https://ecommerce-playground.lambdatest.io/' successfully
+
+04-03-2024T23:44:53 - [MESSAGE][PASSED] - Navigate to 'https://ecommerce-playground.lambdatest.io/' successfully
+
+04-03-2024T23:44:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Ecommerce/Page_Your Store/Logo"), 0): Object 'Object Repository/Ecommerce/Page_Your Store/Logo' is present
+
+04-03-2024T23:44:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-03-2024T23:44:53 - [MESSAGE][PASSED] - Object 'Object Repository/Ecommerce/Page_Your Store/Logo' is present
+
+04-03-2024T23:44:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LambdaTestPlayground/TC01_Access ecommerce website' successfully
+
+04-03-2024T23:44:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecommerce/Page_Your Store/span_My account")): Object: 'Object Repository/Ecommerce/Page_Your Store/span_My account' is clicked on
+
+04-03-2024T23:44:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecommerce/Page_Your Store/span_My account' is clicked on
+
+04-03-2024T23:44:59 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Ecommerce/Page_Account Login/input_E-Mail Address_email"), 5): Object 'Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email' is present
+
+04-03-2024T23:44:59 - [MESSAGE][PASSED] - Object 'Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email' is present
+
+04-03-2024T23:44:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email"), "jorisamadhan@gmail.com"): Text 'jorisamadhan@gmail.com' is set on object 'Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email'
+
+04-03-2024T23:44:59 - [MESSAGE][PASSED] - Text 'jorisamadhan@gmail.com' is set on object 'Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email'
+
+04-03-2024T23:44:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Ecommerce/Page_Account Login/input_Password_password"), "s+D4/nQBI/t4t4P+r+MeoA=="): Text ****** has been set on object 'Object Repository/Ecommerce/Page_Account Login/input_Password_password'
+
+04-03-2024T23:44:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Ecommerce/Page_Account Login/input_Password_password'
+
+04-03-2024T23:44:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecommerce/Page_Account Login/input_Forgotten Password_btn btn-primary")): Object: 'Object Repository/Ecommerce/Page_Account Login/input_Forgotten Password_btn btn-primary' is clicked on
+
+04-03-2024T23:45:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecommerce/Page_Account Login/input_Forgotten Password_btn btn-primary' is clicked on
+
+04-03-2024T23:45:05 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Ecommerce/Page_My Account/h2_My Account"), 5): Object 'Object Repository/Ecommerce/Page_My Account/h2_My Account' is present
+
+04-03-2024T23:45:05 - [MESSAGE][PASSED] - Object 'Object Repository/Ecommerce/Page_My Account/h2_My Account' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/LambdaTestPlayground/TC03_Invalid Login" time="16.262" classname="Test Cases/LambdaTestPlayground/TC03_Invalid Login" status="PASSED">
+         <system-out><![CDATA[04-03-2024T23:45:05 - [TEST_CASE][PASSED] - Test Cases/LambdaTestPlayground/TC03_Invalid Login: Test Cases/LambdaTestPlayground/TC03_Invalid Login
+
+04-03-2024T23:45:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("LambdaTestPlayground/TC01_Access ecommerce website"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/LambdaTestPlayground/TC01_Access ecommerce website' successfully
+
+04-03-2024T23:45:05 - [TEST_CASE][PASSED] - Test Cases/LambdaTestPlayground/TC01_Access ecommerce website: Test Cases/LambdaTestPlayground/TC01_Access ecommerce website
+
+04-03-2024T23:45:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+04-03-2024T23:45:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+04-03-2024T23:45:05 - [MESSAGE][INFO] - Starting 'Chrome (headless)' driver
+
+04-03-2024T23:45:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+04-03-2024T23:45:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+04-03-2024T23:45:06 - [TEST_STEP][PASSED] - navigateToUrl("https://ecommerce-playground.lambdatest.io/"): Navigate to 'https://ecommerce-playground.lambdatest.io/' successfully
+
+04-03-2024T23:45:14 - [MESSAGE][PASSED] - Navigate to 'https://ecommerce-playground.lambdatest.io/' successfully
+
+04-03-2024T23:45:14 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Ecommerce/Page_Your Store/Logo"), 0): Object 'Object Repository/Ecommerce/Page_Your Store/Logo' is present
+
+04-03-2024T23:45:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+04-03-2024T23:45:14 - [MESSAGE][PASSED] - Object 'Object Repository/Ecommerce/Page_Your Store/Logo' is present
+
+04-03-2024T23:45:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/LambdaTestPlayground/TC01_Access ecommerce website' successfully
+
+04-03-2024T23:45:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecommerce/Page_Your Store/span_My account")): Object: 'Object Repository/Ecommerce/Page_Your Store/span_My account' is clicked on
+
+04-03-2024T23:45:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecommerce/Page_Your Store/span_My account' is clicked on
+
+04-03-2024T23:45:19 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Ecommerce/Page_Account Login/input_E-Mail Address_email"), 5): Object 'Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email' is present
+
+04-03-2024T23:45:19 - [MESSAGE][PASSED] - Object 'Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email' is present
+
+04-03-2024T23:45:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email"), "admin"): Text 'admin' is set on object 'Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email'
+
+04-03-2024T23:45:20 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email'
+
+04-03-2024T23:45:20 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Ecommerce/Page_Account Login/input_Password_password"), "hUKwJTbofgPskEWN4pMTBw=="): Text ****** has been set on object 'Object Repository/Ecommerce/Page_Account Login/input_Password_password'
+
+04-03-2024T23:45:20 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Ecommerce/Page_Account Login/input_Password_password'
+
+04-03-2024T23:45:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Ecommerce/Page_Account Login/input_Forgotten Password_btn btn-primary")): Object: 'Object Repository/Ecommerce/Page_Account Login/input_Forgotten Password_btn btn-primary' is clicked on
+
+04-03-2024T23:45:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Ecommerce/Page_Account Login/input_Forgotten Password_btn btn-primary' is clicked on
+
+04-03-2024T23:45:21 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Ecommerce/Page_Account Login/div_Warning Your account has exceeded allow_fce686"), 5): Object 'Object Repository/Ecommerce/Page_Account Login/div_Warning Your account has exceeded allow_fce686' is present
+
+04-03-2024T23:45:21 - [MESSAGE][PASSED] - Object 'Object Repository/Ecommerce/Page_Account Login/div_Warning Your account has exceeded allow_fce686' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[04-03-2024T23:44:25 - [TEST_SUITE][PASSED] - TS3-LambdatestPlayground: Test Cases/LambdaTestPlayground/TC03_Invalid Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

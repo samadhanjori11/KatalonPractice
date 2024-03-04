@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS3-LambdatestPlayground,Chrome 122.0.6261.95,Ecommerce site,,04-03-2024 23:44:25,04-03-2024 23:45:21,55.865s,PASSED
+,,,,,,,
+Test Cases/LambdaTestPlayground/TC01_Access ecommerce website,Chrome 122.0.6261.95,,,04-03-2024 23:44:26,04-03-2024 23:44:42,16.151s,PASSED
+"openBrowser("""")",Chrome 122.0.6261.95,,,04-03-2024 23:44:26,04-03-2024 23:44:29,2.213s,PASSED
+"navigateToUrl(""https://ecommerce-playground.lambdatest.io/"")",Chrome 122.0.6261.95,,,04-03-2024 23:44:29,04-03-2024 23:44:42,13.230s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Ecommerce/Page_Your Store/Logo""), 0)",Chrome 122.0.6261.95,,,04-03-2024 23:44:42,04-03-2024 23:44:42,0.238s,PASSED
+,,,,,,,
+Test Cases/LambdaTestPlayground/TC02_Successful Login,Chrome 122.0.6261.95,,,04-03-2024 23:44:42,04-03-2024 23:45:05,22.864s,PASSED
+"callTestCase(findTestCase(""LambdaTestPlayground/TC01_Access ecommerce website""), [:], STOP_ON_FAILURE)",Chrome 122.0.6261.95,,,04-03-2024 23:44:42,04-03-2024 23:44:53,11.285s,PASSED
+"click(findTestObject(""Object Repository/Ecommerce/Page_Your Store/span_My account""))",Chrome 122.0.6261.95,,,04-03-2024 23:44:53,04-03-2024 23:44:59,5.241s,PASSED
+"waitForElementPresent(findTestObject(""Ecommerce/Page_Account Login/input_E-Mail Address_email""), 5)",Chrome 122.0.6261.95,,,04-03-2024 23:44:59,04-03-2024 23:44:59,0.110s,PASSED
+"setText(findTestObject(""Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email""), ""jorisamadhan@gmail.com"")",Chrome 122.0.6261.95,,,04-03-2024 23:44:59,04-03-2024 23:44:59,0.332s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Ecommerce/Page_Account Login/input_Password_password""), ""s+D4/nQBI/t4t4P+r+MeoA=="")",Chrome 122.0.6261.95,,,04-03-2024 23:44:59,04-03-2024 23:44:59,0.233s,PASSED
+"click(findTestObject(""Object Repository/Ecommerce/Page_Account Login/input_Forgotten Password_btn btn-primary""))",Chrome 122.0.6261.95,,,04-03-2024 23:44:59,04-03-2024 23:45:05,5.390s,PASSED
+"verifyElementPresent(findTestObject(""Ecommerce/Page_My Account/h2_My Account""), 5)",Chrome 122.0.6261.95,,,04-03-2024 23:45:05,04-03-2024 23:45:05,0.159s,PASSED
+,,,,,,,
+Test Cases/LambdaTestPlayground/TC03_Invalid Login,Chrome 122.0.6261.95,,,04-03-2024 23:45:05,04-03-2024 23:45:21,16.262s,PASSED
+"callTestCase(findTestCase(""LambdaTestPlayground/TC01_Access ecommerce website""), [:], STOP_ON_FAILURE)",Chrome 122.0.6261.95,,,04-03-2024 23:45:05,04-03-2024 23:45:14,9.355s,PASSED
+"click(findTestObject(""Object Repository/Ecommerce/Page_Your Store/span_My account""))",Chrome 122.0.6261.95,,,04-03-2024 23:45:14,04-03-2024 23:45:19,4.919s,PASSED
+"waitForElementPresent(findTestObject(""Ecommerce/Page_Account Login/input_E-Mail Address_email""), 5)",Chrome 122.0.6261.95,,,04-03-2024 23:45:19,04-03-2024 23:45:19,0.094s,PASSED
+"setText(findTestObject(""Object Repository/Ecommerce/Page_Account Login/input_E-Mail Address_email""), ""admin"")",Chrome 122.0.6261.95,,,04-03-2024 23:45:19,04-03-2024 23:45:20,0.314s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Ecommerce/Page_Account Login/input_Password_password""), ""hUKwJTbofgPskEWN4pMTBw=="")",Chrome 122.0.6261.95,,,04-03-2024 23:45:20,04-03-2024 23:45:20,0.235s,PASSED
+"click(findTestObject(""Object Repository/Ecommerce/Page_Account Login/input_Forgotten Password_btn btn-primary""))",Chrome 122.0.6261.95,,,04-03-2024 23:45:20,04-03-2024 23:45:21,1.132s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Ecommerce/Page_Account Login/div_Warning Your account has exceeded allow_fce686""), 5)",Chrome 122.0.6261.95,,,04-03-2024 23:45:21,04-03-2024 23:45:21,0.094s,PASSED
