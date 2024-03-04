@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Movies div</name>
+   <tag></tag>
+   <elementGuidId>d76ac6e9-bd5b-4128-8889-2c4c62fe0253</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='imdbHeader']/div[2]/aside/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.sc-efHYhv.kIOZLn.navlinkcat</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ffd3d8b5-c216-4695-9b77-165f27ac7137</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sc-efHYhv kIOZLn navlinkcat</value>
+      <webElementGuid>3e042675-b310-4e21-813d-3f164214d978</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-testid</name>
+      <type>Main</type>
+      <value>nav-link-category</value>
+      <webElementGuid>606b1bc5-7a15-428b-bf63-cfb48add90a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>0e4ba8d1-c097-42d5-a49c-2427fd42420c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>MoviesRelease CalendarTop 250 MoviesMost Popular MoviesBrowse Movies by GenreTop Box OfficeShowtimes &amp; TicketsMovie NewsIndia Movie Spotlight</value>
+      <webElementGuid>a12faf9f-afbe-4a3a-bf12-0efdf3fe4eb7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;imdbHeader&quot;)/div[@class=&quot;ipc-page-content-container ipc-page-content-container--center navbar__inner&quot;]/aside[@class=&quot;sc-kLokBR hhgGKY drawer hamburger__drawer imdb-header__nav-drawer&quot;]/div[@class=&quot;drawer__panel&quot;]/div[@class=&quot;drawer__panelContent&quot;]/div[@class=&quot;sc-bBjSGg lEdew navlcl&quot;]/div[@class=&quot;sc-efHYhv kIOZLn navlinkcat&quot;]</value>
+      <webElementGuid>28ddfb83-4a20-4794-85f6-cddff32fa9c7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='imdbHeader']/div[2]/aside/div/div[2]/div/div</value>
+      <webElementGuid>9495f841-4128-472f-9472-8749064659b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Menu'])[1]/following::div[5]</value>
+      <webElementGuid>56c0143b-f4bd-4daa-9b97-f9027f5e6598</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div/div</value>
+      <webElementGuid>5c58a4bd-a4ab-4273-8e9a-874f9012c3ab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'MoviesRelease CalendarTop 250 MoviesMost Popular MoviesBrowse Movies by GenreTop Box OfficeShowtimes &amp; TicketsMovie NewsIndia Movie Spotlight' or . = 'MoviesRelease CalendarTop 250 MoviesMost Popular MoviesBrowse Movies by GenreTop Box OfficeShowtimes &amp; TicketsMovie NewsIndia Movie Spotlight')]</value>
+      <webElementGuid>f2b6ef1d-44a1-4ae8-94dd-44fe56ac8ec5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

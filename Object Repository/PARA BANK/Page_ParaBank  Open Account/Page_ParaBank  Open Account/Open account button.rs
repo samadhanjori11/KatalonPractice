@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Open account button</name>
+   <tag></tag>
+   <elementGuidId>459b7c72-0066-4b79-ad69-d8cc3ed350e4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>input.button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@value='Open New Account']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>509063b1-d3e7-4493-9723-78c4b9834584</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>fd18b30b-2968-4980-ba65-bc034a91813e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>5e427a5a-2550-451e-9d8f-fa1d636f7d43</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Open New Account</value>
+      <webElementGuid>a16b8133-fafd-4234-855c-e079b4126c55</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;rightPanel&quot;)/div[@class=&quot;ng-scope&quot;]/div[@class=&quot;ng-scope&quot;]/form[@class=&quot;ng-valid ng-dirty ng-valid-parse&quot;]/div[1]/input[@class=&quot;button&quot;]</value>
+      <webElementGuid>ef67ac4c-ab6c-4382-8160-69b6e0390ce5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='Open New Account']</value>
+      <webElementGuid>8d0666ec-32de-46f6-aebe-a2b7802a7ae9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='rightPanel']/div/div/form/div/input</value>
+      <webElementGuid>c9ccd319-2708-494d-a1a0-7470dac0d3d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//input</value>
+      <webElementGuid>623d9b98-1b0f-4e1d-8cae-9924afd9fe60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'submit']</value>
+      <webElementGuid>eea7420e-0a58-486d-a401-e1c8b80c0b21</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

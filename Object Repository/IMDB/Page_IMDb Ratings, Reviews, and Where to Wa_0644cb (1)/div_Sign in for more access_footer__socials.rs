@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Sign in for more access_footer__socials</name>
+   <tag></tag>
+   <elementGuidId>e6c51515-1160-438f-a0b1-cf2125a33e7f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.footer__socials</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/footer/div[3]/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0492331d-4d7c-4f8c-ab18-4d8c6936644c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>footer__socials</value>
+      <webElementGuid>ef249feb-7d82-4666-af11-b41f659b1e9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/footer[@class=&quot;imdb-footer sc-iemXqs gbisDe footer&quot;]/div[@class=&quot;ipc-page-content-container ipc-page-content-container--center footer__links&quot;]/div[@class=&quot;imdb-footer__links&quot;]/div[@class=&quot;footer__socials&quot;]</value>
+      <webElementGuid>1de8547c-18ab-40e5-8338-08dc64072373</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/footer/div[3]/div/div</value>
+      <webElementGuid>ba127219-f0f3-4da4-baaa-d720200e23bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in for more access'])[2]/following::div[3]</value>
+      <webElementGuid>8c597d63-6f6e-4f34-8e5e-b851f1ebacc8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in for more access'])[1]/following::div[3]</value>
+      <webElementGuid>e5b24513-6567-4430-9392-c2e3d3e5c555</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Get the IMDb App'])[2]/preceding::div[1]</value>
+      <webElementGuid>43a55efd-e97b-447c-a07e-a51b10afd7f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/preceding::div[1]</value>
+      <webElementGuid>3c8225a1-c08e-4c19-a269-e03988b634da</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//footer/div[3]/div/div</value>
+      <webElementGuid>2409eec0-04d3-4eb7-947c-2033f6469492</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

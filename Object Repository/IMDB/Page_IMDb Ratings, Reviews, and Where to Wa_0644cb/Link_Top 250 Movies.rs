@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Link_Top 250 Movies</name>
+   <tag></tag>
+   <elementGuidId>9a454f1c-14e9-4270-ab1f-1ffb1c98517d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='imdbHeader']/div[2]/aside/div/div[2]/div/div/span/div/div/ul/a[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>eee61dc5-fa03-4d6e-a9e8-af82fa367bed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ipc-list-item__text</value>
+      <webElementGuid>8c952a71-3e14-48bb-b241-cd57d77809e4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>presentation</value>
+      <webElementGuid>39036199-e348-49c3-b379-f78d591f764b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Top 250 Movies</value>
+      <webElementGuid>1bb72b13-5dd4-4726-8a02-be2c3cf76835</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;imdbHeader&quot;)/div[@class=&quot;ipc-page-content-container ipc-page-content-container--center navbar__inner&quot;]/aside[@class=&quot;sc-kLokBR hhgGKY drawer hamburger__drawer imdb-header__nav-drawer&quot;]/div[@class=&quot;drawer__panel&quot;]/div[@class=&quot;drawer__panelContent&quot;]/div[@class=&quot;sc-bBjSGg lEdew navlcl&quot;]/div[@class=&quot;sc-efHYhv kIOZLn navlinkcat&quot;]/span[@class=&quot;navlinkcat__targetWrapper&quot;]/div[@class=&quot;navlinkcat__listContainer&quot;]/div[@class=&quot;navlinkcat__listContainerInner&quot;]/ul[@class=&quot;ipc-list navlinkcat__list ipc-list--baseAlt&quot;]/a[@class=&quot;ipc-list__item nav-link sc-iTVKth sbWod ipc-list__item--indent-one&quot;]/span[@class=&quot;ipc-list-item__text&quot;]</value>
+      <webElementGuid>97a90112-e181-449b-9b44-4e01e91d32f0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='imdbHeader']/div[2]/aside/div/div[2]/div/div/span/div/div/ul/a[2]/span</value>
+      <webElementGuid>83441821-7f29-4186-a0bc-3ca6a2189074</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Release Calendar'])[1]/following::span[1]</value>
+      <webElementGuid>c14652b8-2ebc-4131-a66f-b6416c6c243c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Movies'])[1]/following::span[3]</value>
+      <webElementGuid>a347786d-f2dc-4a97-b58e-1e19631b311d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Most Popular Movies'])[1]/preceding::span[1]</value>
+      <webElementGuid>3f9f467c-db9a-4e65-8b9e-21aef38f1d52</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Browse Movies by Genre'])[1]/preceding::span[2]</value>
+      <webElementGuid>30e7150c-c727-48cc-a564-1f91d394147d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Top 250 Movies']/parent::*</value>
+      <webElementGuid>a3721e2f-1c96-4b39-b0b3-5ed03fb372f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ul/a[2]/span</value>
+      <webElementGuid>caf363e4-0d46-40f0-959b-965119002e41</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Top 250 Movies' or . = 'Top 250 Movies')]</value>
+      <webElementGuid>ed7d2073-93ff-4501-a2bb-e92206e0f9b7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
