@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS1-IMDB" time="130.935" tests="3" failures="1" errors="0">
+   <testsuite name="TS1-IMDB" tests="3" failures="1" errors="0" time="130.935" skipped="0" timestamp="06-03-2024T00:47:27" hostname="joris - DESKTOP-6JFGPOU" id="Test Suites/TS1-IMDB">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\joris\\git\\FirstProject-Git\\KatalonPractice\\Reports\\20240306_004721\\TS1-IMDB\\20240306_004721"/>
+         <property name="logFiles" value="C:\\Users\\joris\\git\\FirstProject-Git\\KatalonPractice\\Reports\\20240306_004721\\TS1-IMDB\\20240306_004721\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\joris\\git\\FirstProject-Git\\KatalonPractice\\Reports\\20240306_004721\\TS1-IMDB\\20240306_004721\\1709666316346.png, C:\\Users\\joris\\git\\FirstProject-Git\\KatalonPractice\\Reports\\20240306_004721\\TS1-IMDB\\20240306_004721\\1709666316586.png"/>
+         <property name="hostName" value="joris - DESKTOP-6JFGPOU"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="sessionId" value="35a5e7c3f465d9b41b6733919d5bae85"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/IMDB Website automation/TC1_AccessIMDB" time="68.733" classname="Test Cases/IMDB Website automation/TC1_AccessIMDB" status="FAILED">
+         <failure type="FAILED" message="Test Cases/IMDB Website automation/TC1_AccessIMDB FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)&#xa;	at TC1_AccessIMDB.run(TC1_AccessIMDB:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709666241574.run(TempTestSuite1709666241574.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' located by '//a[@id='home_img_holder']' not found&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[06-03-2024T00:47:28 - [TEST_CASE][FAILED] - Test Cases/IMDB Website automation/TC1_AccessIMDB: Test Cases/IMDB Website automation/TC1_AccessIMDB FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at TC1_AccessIMDB.run(TC1_AccessIMDB:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709666241574.run(TempTestSuite1709666241574.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' located by '//a[@id='home_img_holder']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+06-03-2024T00:47:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-03-2024T00:47:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2024T00:47:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2024T00:47:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-03-2024T00:47:32 - [TEST_STEP][PASSED] - navigateToUrl("https://www.imdb.com/"): Navigate to 'https://www.imdb.com/' successfully
+
+06-03-2024T00:48:32 - [MESSAGE][PASSED] - Navigate to 'https://www.imdb.com/' successfully
+
+06-03-2024T00:48:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2024T00:48:32 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2024T00:48:32 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder"), 2): Unable to verify object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at TC1_AccessIMDB.run(TC1_AccessIMDB:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709666241574.run(TempTestSuite1709666241574.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' located by '//a[@id='home_img_holder']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+
+06-03-2024T00:48:36 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //a[@id='home_img_holder']'. Please recheck the objects properties to make sure the desired element is located. 
+
+06-03-2024T00:48:36 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' located by '//a[@id='home_img_holder']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' located by '//a[@id='home_img_holder']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at TC1_AccessIMDB.run(TC1_AccessIMDB:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709666241574.run(TempTestSuite1709666241574.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\joris\\git\\FirstProject-Git\\KatalonPractice\\Reports\\20240306_004721\\TS1-IMDB\\20240306_004721\\1709666316346.png]]
+
+06-03-2024T00:48:36 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at TC1_AccessIMDB.run(TC1_AccessIMDB:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709666241574.run(TempTestSuite1709666241574.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' located by '//a[@id='home_img_holder']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+)
+[[ATTACHMENT|C:\\Users\\joris\\git\\FirstProject-Git\\KatalonPractice\\Reports\\20240306_004721\\TS1-IMDB\\20240306_004721\\1709666316586.png]]]]></system-out>
+         <system-err><![CDATA[06-03-2024T00:47:28 - [TEST_CASE][FAILED] - Test Cases/IMDB Website automation/TC1_AccessIMDB: Test Cases/IMDB Website automation/TC1_AccessIMDB FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at TC1_AccessIMDB.run(TC1_AccessIMDB:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709666241574.run(TempTestSuite1709666241574.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' located by '//a[@id='home_img_holder']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IMDB Website automation/TC2_Search for a movie name" time="24.617" classname="Test Cases/IMDB Website automation/TC2_Search for a movie name" status="PASSED">
+         <system-out><![CDATA[06-03-2024T00:48:36 - [TEST_CASE][PASSED] - Test Cases/IMDB Website automation/TC2_Search for a movie name: Test Cases/IMDB Website automation/TC2_Search for a movie name
+
+06-03-2024T00:48:37 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IMDB Website automation/TC1_AccessIMDB"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/IMDB Website automation/TC1_AccessIMDB' successfully
+
+06-03-2024T00:48:37 - [TEST_CASE][PASSED] - Test Cases/IMDB Website automation/TC1_AccessIMDB: Test Cases/IMDB Website automation/TC1_AccessIMDB
+
+06-03-2024T00:48:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-03-2024T00:48:37 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+06-03-2024T00:48:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2024T00:48:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2024T00:48:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-03-2024T00:48:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.imdb.com/"): Navigate to 'https://www.imdb.com/' successfully
+
+06-03-2024T00:48:52 - [MESSAGE][PASSED] - Navigate to 'https://www.imdb.com/' successfully
+
+06-03-2024T00:48:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2024T00:48:52 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2024T00:48:52 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder"), 2): Object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present
+
+06-03-2024T00:48:53 - [MESSAGE][PASSED] - Object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present
+
+06-03-2024T00:48:53 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IMDB Website automation/TC1_AccessIMDB' successfully
+
+06-03-2024T00:48:53 - [TEST_STEP][PASSED] - setText(findTestObject("IMDB/Home page/input_Advanced Search_q"), "Otto"): Text 'Otto' is set on object 'Object Repository/IMDB/Home page/input_Advanced Search_q'
+
+06-03-2024T00:48:54 - [MESSAGE][PASSED] - Text 'Otto' is set on object 'Object Repository/IMDB/Home page/input_Advanced Search_q'
+
+06-03-2024T00:48:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/IMDB/Home page/svg_Advanced Search_ipc-icon ipc-icon--magnify")): Object: 'Object Repository/IMDB/Home page/svg_Advanced Search_ipc-icon ipc-icon--magnify' is clicked on
+
+06-03-2024T00:49:00 - [MESSAGE][PASSED] - Object: 'Object Repository/IMDB/Home page/svg_Advanced Search_ipc-icon ipc-icon--magnify' is clicked on
+
+06-03-2024T00:49:00 - [TEST_STEP][PASSED] - waitForPageLoad(5): Wait for page load successfully
+
+06-03-2024T00:49:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+06-03-2024T00:49:00 - [TEST_STEP][PASSED] - verifyTextPresent("A Man Called Otto", false): Text 'A Man Called Otto' is present on page 
+
+06-03-2024T00:49:01 - [MESSAGE][PASSED] - Text 'A Man Called Otto' is present on page 
+
+06-03-2024T00:49:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+06-03-2024T00:49:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/IMDB Website automation/TC3_Access Menu" time="37.117" classname="Test Cases/IMDB Website automation/TC3_Access Menu" status="PASSED">
+         <system-out><![CDATA[06-03-2024T00:49:01 - [TEST_CASE][PASSED] - Test Cases/IMDB Website automation/TC3_Access Menu: Test Cases/IMDB Website automation/TC3_Access Menu
+
+06-03-2024T00:49:01 - [TEST_STEP][PASSED] - callTestCase(findTestCase("IMDB Website automation/TC1_AccessIMDB"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/IMDB Website automation/TC1_AccessIMDB' successfully
+
+06-03-2024T00:49:01 - [TEST_CASE][PASSED] - Test Cases/IMDB Website automation/TC1_AccessIMDB: Test Cases/IMDB Website automation/TC1_AccessIMDB
+
+06-03-2024T00:49:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+06-03-2024T00:49:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+06-03-2024T00:49:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+06-03-2024T00:49:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+06-03-2024T00:49:03 - [TEST_STEP][PASSED] - navigateToUrl("https://www.imdb.com/"): Navigate to 'https://www.imdb.com/' successfully
+
+06-03-2024T00:49:33 - [MESSAGE][PASSED] - Navigate to 'https://www.imdb.com/' successfully
+
+06-03-2024T00:49:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+06-03-2024T00:49:34 - [MESSAGE][PASSED] - Current window maximized
+
+06-03-2024T00:49:34 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder"), 2): Object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present
+
+06-03-2024T00:49:35 - [MESSAGE][PASSED] - Object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present
+
+06-03-2024T00:49:35 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/IMDB Website automation/TC1_AccessIMDB' successfully
+
+06-03-2024T00:49:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/Menu Hamburger")): Object: 'Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/Menu Hamburger' is clicked on
+
+06-03-2024T00:49:35 - [MESSAGE][PASSED] - Object: 'Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/Menu Hamburger' is clicked on
+
+06-03-2024T00:49:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/span_MoviesRelease")): Object 'Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/span_MoviesRelease' is visible
+
+06-03-2024T00:49:36 - [MESSAGE][PASSED] - Object 'Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/span_MoviesRelease' is visible
+
+06-03-2024T00:49:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/Movies div"), 1): Object 'Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/Movies div' is present
+
+06-03-2024T00:49:38 - [MESSAGE][PASSED] - Object 'Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/Movies div' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[06-03-2024T00:47:27 - [TEST_SUITE][FAILED] - TS1-IMDB: Test Cases/IMDB Website automation/TC1_AccessIMDB FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at TC1_AccessIMDB.run(TC1_AccessIMDB:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709666241574.run(TempTestSuite1709666241574.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' located by '//a[@id='home_img_holder']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[06-03-2024T00:47:27 - [TEST_SUITE][FAILED] - TS1-IMDB: Test Cases/IMDB Website automation/TC1_AccessIMDB FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1503)
+	at TC1_AccessIMDB.run(TC1_AccessIMDB:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709666241574.run(TempTestSuite1709666241574.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder' located by '//a[@id='home_img_holder']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

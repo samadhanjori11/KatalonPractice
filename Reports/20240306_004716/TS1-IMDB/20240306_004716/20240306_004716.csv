@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1-IMDB,Chrome 122.0.0.0,,,06-03-2024 00:47:22,06-03-2024 00:49:06,1m - 44.456s,PASSED
+,,,,,,,
+Test Cases/IMDB Website automation/TC1_AccessIMDB,Chrome 122.0.0.0,,,06-03-2024 00:47:22,06-03-2024 00:47:43,21.108s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,06-03-2024 00:47:23,06-03-2024 00:47:26,2.855s,PASSED
+"navigateToUrl(""https://www.imdb.com/"")",Chrome 122.0.0.0,,,06-03-2024 00:47:26,06-03-2024 00:47:41,15.888s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,06-03-2024 00:47:41,06-03-2024 00:47:42,0.861s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/IMDB/Home page/a_Espaol (Mxico)_home_img_holder""), 2)",Chrome 122.0.0.0,,,06-03-2024 00:47:42,06-03-2024 00:47:43,0.992s,PASSED
+,,,,,,,
+Test Cases/IMDB Website automation/TC2_Search for a movie name,Chrome 122.0.0.0,,,06-03-2024 00:47:43,06-03-2024 00:48:28,45.034s,PASSED
+"callTestCase(findTestCase(""IMDB Website automation/TC1_AccessIMDB""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,06-03-2024 00:47:44,06-03-2024 00:48:19,35.379s,PASSED
+"setText(findTestObject(""IMDB/Home page/input_Advanced Search_q""), ""Otto"")",Chrome 122.0.0.0,,,06-03-2024 00:48:19,06-03-2024 00:48:21,1.545s,PASSED
+"click(findTestObject(""Object Repository/IMDB/Home page/svg_Advanced Search_ipc-icon ipc-icon--magnify""))",Chrome 122.0.0.0,,,06-03-2024 00:48:21,06-03-2024 00:48:27,6.890s,PASSED
+waitForPageLoad(5),Chrome 122.0.0.0,,,06-03-2024 00:48:27,06-03-2024 00:48:28,0.162s,PASSED
+"verifyTextPresent(""A Man Called Otto"", false)",Chrome 122.0.0.0,,,06-03-2024 00:48:28,06-03-2024 00:48:28,0.501s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,06-03-2024 00:48:28,06-03-2024 00:48:28,0.267s,PASSED
+,,,,,,,
+Test Cases/IMDB Website automation/TC3_Access Menu,Chrome 122.0.0.0,,,06-03-2024 00:48:28,06-03-2024 00:49:06,37.954s,PASSED
+"callTestCase(findTestCase(""IMDB Website automation/TC1_AccessIMDB""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,06-03-2024 00:48:29,06-03-2024 00:49:05,36.548s,PASSED
+"click(findTestObject(""Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/Menu Hamburger""))",Chrome 122.0.0.0,,,06-03-2024 00:49:05,06-03-2024 00:49:06,0.465s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/span_MoviesRelease""))",Chrome 122.0.0.0,,,06-03-2024 00:49:06,06-03-2024 00:49:06,0.532s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/Movies div""), 1)",Chrome 122.0.0.0,,,06-03-2024 00:49:06,06-03-2024 00:49:06,0.281s,PASSED
