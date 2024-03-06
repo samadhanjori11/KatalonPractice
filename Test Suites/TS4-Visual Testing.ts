@@ -18,4 +18,11 @@
       <testCaseId>Test Cases/LambdaTestPlayground/TC04_VisualTest1</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>834efbd9-3c63-4657-a5dd-0e1608358f98</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/LambdaTestPlayground/TC05_VisualTest_LoginPage</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>
