@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Dashboard</name>
+   <tag></tag>
+   <elementGuidId>43490c60-5ea5-4cff-b4c7-3a79dd70f83b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='widget-navbar-217834']/ul/li[6]/ul/li/a/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.mz-sub-menu-96.dropdown-menu.show > li > a.icon-left.both.dropdown-item > div.info > span.title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2b454925-725f-4558-bee4-f9660226ba76</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>title</value>
+      <webElementGuid>b4e7d436-5f56-49ac-9cd2-b05f6bb95258</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Dashboard
+</value>
+      <webElementGuid>8a1f73e9-fac9-4ee9-8c9c-ae78be4e252c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;widget-navbar-217834&quot;)/ul[@class=&quot;navbar-nav horizontal&quot;]/li[@class=&quot;nav-item dropdown dropdown-hoverable show&quot;]/ul[@class=&quot;mz-sub-menu-96 dropdown-menu show&quot;]/li[1]/a[@class=&quot;icon-left both dropdown-item&quot;]/div[@class=&quot;info&quot;]/span[@class=&quot;title&quot;]</value>
+      <webElementGuid>cc6b0222-975d-483f-918b-c597584d3d43</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='widget-navbar-217834']/ul/li[6]/ul/li/a/div/span</value>
+      <webElementGuid>58f0f6f1-5c28-497b-91ad-3b471c1f902a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My account'])[2]/following::span[1]</value>
+      <webElementGuid>91c73609-5072-4aa1-9295-9e0e43a5dfb5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Widgets'])[1]/following::span[2]</value>
+      <webElementGuid>5faa1978-04fa-452f-81fb-dc361161e7c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My order'])[1]/preceding::span[1]</value>
+      <webElementGuid>c6ea36c3-c826-42a3-b629-2f3ce994d50a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Return'])[1]/preceding::span[2]</value>
+      <webElementGuid>395ab6b9-360f-40c7-adba-569b8ae6a53a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Dashboard']/parent::*</value>
+      <webElementGuid>870f860a-4771-49df-b9e9-08b6c2dfd71f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[6]/ul/li/a/div/span</value>
+      <webElementGuid>1999fa99-0d56-4de6-bd3b-ef856869b322</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Dashboard
+' or . = ' Dashboard
+')]</value>
+      <webElementGuid>9449cf98-91d7-4b5d-adc8-29628b2ee2a6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

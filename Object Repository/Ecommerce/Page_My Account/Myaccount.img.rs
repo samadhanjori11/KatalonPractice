@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Myaccount.img</name>
+   <tag></tag>
+   <elementGuidId>fc127812-bd53-416d-a782-7f02f4bb0cf9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='content']/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.card-body.text-center</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>535e7a00-a13d-4a60-bd4f-49f61d7ac06e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>card-body text-center</value>
+      <webElementGuid>69f51398-bd99-4ead-b3ce-997ab9551f21</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>   Edit your account information  Change your password  Modify your address book entries  Modify your wish list  Subscribe / unsubscribe to newsletter  </value>
+      <webElementGuid>43ecae0b-cb3d-4837-b7f7-f880087e7480</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;content&quot;)/div[@class=&quot;card mb-3&quot;]/div[@class=&quot;card-body text-center&quot;]</value>
+      <webElementGuid>dd85e205-5815-428a-a0bc-145a278a8bc2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='content']/div/div</value>
+      <webElementGuid>61278040-0730-4d07-a529-f6aa7c4a1fdb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[2]/following::div[1]</value>
+      <webElementGuid>ea2d332e-5e5c-41a5-9305-ec08bffe55cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account'])[1]/following::div[4]</value>
+      <webElementGuid>a8fa4457-c58e-45e9-bb91-568882297f49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div/div/div/div/div</value>
+      <webElementGuid>e5d5df18-ba29-45de-ab37-cd87adcecdeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '   Edit your account information  Change your password  Modify your address book entries  Modify your wish list  Subscribe / unsubscribe to newsletter  ' or . = '   Edit your account information  Change your password  Modify your address book entries  Modify your wish list  Subscribe / unsubscribe to newsletter  ')]</value>
+      <webElementGuid>b51cd52f-4edf-407d-8bff-bb29dca8b6a6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
