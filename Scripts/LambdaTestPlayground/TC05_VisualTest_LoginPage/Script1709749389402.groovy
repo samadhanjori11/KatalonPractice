@@ -23,3 +23,5 @@ WebUI.click(findTestObject('Object Repository/Ecommerce/Page_Your Store/span_My 
 
 WebUI.takeScreenshotAsCheckpoint('Login page')
 
+WebUI.closeBrowser()
+

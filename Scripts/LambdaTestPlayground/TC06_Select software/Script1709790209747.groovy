@@ -19,11 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('LambdaTestPlayground/TC02_Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Object Repository/Ecommerce/Page_Your Store/span_Dashboard'))
+WebUI.click(findTestObject('Object Repository/Ecommerce/Page_My Account/button_All Categories'))
 
-not_run: WebUI.click(findTestObject('Object Repository/Ecommerce/Page_My Account/Myaccount.img'))
+WebUI.click(findTestObject('Object Repository/Ecommerce/Page_My Account/a_Software'))
 
-WebUI.takeScreenshotAsCheckpoint('MyAccount')
+WebUI.setText(findTestObject('Object Repository/Ecommerce/Page_My Account/input_Software_search'), 'Canon')
+
+WebUI.click(findTestObject('Object Repository/Ecommerce/Page_My Account/button_Search'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Ecommerce/Page_Search - Canon/div_Canon EOS 5D  134.00 Canons press mater_78fd5f'), 
+    0)
 
 WebUI.closeBrowser()
 

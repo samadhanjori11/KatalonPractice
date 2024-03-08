@@ -32,3 +32,5 @@ WebUI.click(findTestObject('Object Repository/Ecommerce/Page_Account Login/input
 WebUI.verifyElementPresent(findTestObject('Object Repository/Ecommerce/Page_Account Login/div_Warning Your account has exceeded allow_fce686'), 
     5)
 
+WebUI.closeBrowser()
+

@@ -1,0 +1,17 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS3-LambdatestPlayground,,Ecommerce site,,08-03-2024 10:34:37,08-03-2024 10:35:12,34.845s,FAILED
+,,,,,,,
+Test Cases/LambdaTestPlayground/TC01_Access ecommerce website,,,,08-03-2024 10:34:49,08-03-2024 10:34:54,4.890s,FAILED
+"openBrowser("""")",,,,08-03-2024 10:34:49,08-03-2024 10:34:54,4.821s,FAILED
+,,,,,,,
+Test Cases/LambdaTestPlayground/TC02_Successful Login,,,,08-03-2024 10:35:06,08-03-2024 10:35:09,3.619s,FAILED
+"callTestCase(findTestCase(""LambdaTestPlayground/TC01_Access ecommerce website""), [:], STOP_ON_FAILURE)",,,,08-03-2024 10:35:06,08-03-2024 10:35:09,3.565s,FAILED
+,,,,,,,
+Test Cases/LambdaTestPlayground/TC03_Invalid Login,,,,08-03-2024 10:35:10,08-03-2024 10:35:10,0.175s,FAILED
+"callTestCase(findTestCase(""LambdaTestPlayground/TC01_Access ecommerce website""), [:], STOP_ON_FAILURE)",,,,08-03-2024 10:35:10,08-03-2024 10:35:10,0.147s,FAILED
+,,,,,,,
+Test Cases/LambdaTestPlayground/TC06_Select software,,,,08-03-2024 10:35:11,08-03-2024 10:35:11,0.214s,FAILED
+"callTestCase(findTestCase(""LambdaTestPlayground/TC02_Successful Login""), [:], STOP_ON_FAILURE)",,,,08-03-2024 10:35:11,08-03-2024 10:35:11,0.197s,FAILED
+,,,,,,,
+Test Cases/LambdaTestPlayground/TC07_Add iPod to cart,,,,08-03-2024 10:35:12,08-03-2024 10:35:12,0.197s,FAILED
+"callTestCase(findTestCase(""LambdaTestPlayground/TC02_Successful Login""), [:], STOP_ON_FAILURE)",,,,08-03-2024 10:35:12,08-03-2024 10:35:12,0.180s,FAILED

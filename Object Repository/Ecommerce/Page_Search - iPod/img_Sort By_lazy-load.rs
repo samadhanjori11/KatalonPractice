@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Sort By_lazy-load</name>
+   <tag></tag>
+   <elementGuidId>07fdce2d-4dc1-4132-baf1-3b0dbe38878f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.lazy-load</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='mz-product-grid-image-32-212469']/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>7722e38a-f89a-46c1-b542-bf0c82a057af</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>lazy-load</value>
+      <webElementGuid>495d1caa-6bd9-4314-bd72-51e7a8b07af3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/5-270x338.webp</value>
+      <webElementGuid>52926aca-c128-4b01-97f7-4125fdeaed73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>iPod Touch</value>
+      <webElementGuid>87f2c901-ac07-40a2-aa58-262dd6c66f7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>iPod Touch</value>
+      <webElementGuid>4e837c23-20d6-4041-8981-1503bee857d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>sizes</name>
+      <type>Main</type>
+      <value>(min-width: 1360px) 270px,(min-width: 1024px) 235px,(min-width: 768px) 300px,(min-width: 576px) 300px,200px</value>
+      <webElementGuid>62c4faf5-ec53-4fba-9cf5-7c3ba2ff4b45</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>srcset</name>
+      <type>Main</type>
+      <value>https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/5-235x294.webp 235w,https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/5-300x375.webp 300w,https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/5-200x250.webp 200w,https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/5-270x338.webp 270w</value>
+      <webElementGuid>90538d3f-1fe4-4bc4-bb1b-18b36f115586</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mz-product-grid-image-32-212469&quot;)/div[@class=&quot;carousel-inner&quot;]/div[@class=&quot;carousel-item active&quot;]/img[@class=&quot;lazy-load&quot;]</value>
+      <webElementGuid>8567ea89-8c8e-4650-910c-b1d51ba8d95d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='mz-product-grid-image-32-212469']/div/div/img</value>
+      <webElementGuid>77c1fe2f-6fed-4371-a4fb-84519c260bd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='iPod Touch']</value>
+      <webElementGuid>6f6cde04-bd53-4bb1-8545-7a6514a77c35</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/img</value>
+      <webElementGuid>ae85f106-27cb-4b24-8837-c44a3787bd92</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://ecommerce-playground.lambdatest.io/image/cache/catalog/maza/demo/mz_poco/megastore-2/product/5-270x338.webp' and @alt = 'iPod Touch' and @title = 'iPod Touch']</value>
+      <webElementGuid>2c5ffda6-7baf-4431-aaa3-ddf29389549d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

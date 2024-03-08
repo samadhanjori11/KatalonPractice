@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_iPod Touch</name>
+   <tag></tag>
+   <elementGuidId>d1043ad5-25a1-47fd-90f6-fc849a44f47c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.text-ellipsis-2</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='entry_212469']/div/div/div/div[2]/h4/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c0af1579-4f3b-4381-980c-7ab1baef6026</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>text-ellipsis-2</value>
+      <webElementGuid>472fb8a1-223f-4544-b739-26ce9eb456a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://ecommerce-playground.lambdatest.io/index.php?route=product/product&amp;product_id=32&amp;search=iPod</value>
+      <webElementGuid>4dc64aa4-18b4-47dc-8d89-31e5de379e4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>iPod Touch</value>
+      <webElementGuid>d115eeda-98af-4bd7-b7f9-22640cc569a7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;entry_212469&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;product-layout product-grid no-desc col-xl-4 col-lg-4 col-md-4 col-sm-6 col-6&quot;]/div[@class=&quot;product-thumb&quot;]/div[@class=&quot;caption&quot;]/h4[@class=&quot;title&quot;]/a[@class=&quot;text-ellipsis-2&quot;]</value>
+      <webElementGuid>ac75f4ac-860f-42d8-9ace-c3541fef2e0d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='entry_212469']/div/div/div/div[2]/h4/a</value>
+      <webElementGuid>a469a2c4-7800-4c1a-a8c5-63c964eae939</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'iPod Touch')]</value>
+      <webElementGuid>c6373885-dffc-425f-a4ab-83f12ee2db14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Wish List'])[1]/following::a[1]</value>
+      <webElementGuid>a2de231c-34be-4656-93e5-109da0777455</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[1]/following::a[1]</value>
+      <webElementGuid>8077e002-6ab3-4f2b-b33e-6e3e4898bd67</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$194.00'])[1]/preceding::a[1]</value>
+      <webElementGuid>8cf27b78-53b3-46af-98e3-470b8cad2d9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to Cart'])[2]/preceding::a[2]</value>
+      <webElementGuid>81985a2f-9fd9-4a71-b285-a108675ba948</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='iPod Touch']/parent::*</value>
+      <webElementGuid>c7b68360-3c38-435e-96b2-2d17e3749fab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://ecommerce-playground.lambdatest.io/index.php?route=product/product&amp;product_id=32&amp;search=iPod')])[2]</value>
+      <webElementGuid>fd6450c8-f262-4524-9773-30d8e70cccb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h4/a</value>
+      <webElementGuid>e1204aff-fb26-4948-a915-706af15bb13d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://ecommerce-playground.lambdatest.io/index.php?route=product/product&amp;product_id=32&amp;search=iPod' and (text() = 'iPod Touch' or . = 'iPod Touch')]</value>
+      <webElementGuid>17e2d3a5-f241-4aab-a926-ce5e27f17874</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

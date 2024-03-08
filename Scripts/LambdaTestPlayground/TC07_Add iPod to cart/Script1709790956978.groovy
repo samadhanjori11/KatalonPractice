@@ -19,11 +19,16 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('LambdaTestPlayground/TC02_Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-not_run: WebUI.click(findTestObject('Object Repository/Ecommerce/Page_Your Store/span_Dashboard'))
+WebUI.setText(findTestObject('Object Repository/Ecommerce/Page_Your Store/input_All Categories_search'), 'iPod')
 
-not_run: WebUI.click(findTestObject('Object Repository/Ecommerce/Page_My Account/Myaccount.img'))
+WebUI.sendKeys(findTestObject('Object Repository/Ecommerce/Page_Your Store/input_All Categories_search'), Keys.chord(Keys.ENTER))
 
-WebUI.takeScreenshotAsCheckpoint('MyAccount')
+WebUI.click(findTestObject('Object Repository/Ecommerce/Page_Search - iPod/a_iPod Touch'))
+
+WebUI.click(findTestObject('Object Repository/Ecommerce/Page_iPod Touch/button_Add to Cart'))
+
+WebUI.verifyElementPresent(findTestObject('Object Repository/Ecommerce/Page_iPod Touch/p_Success You have added iPod Touch to your_e1b4db'), 
+    0)
 
 WebUI.closeBrowser()
 

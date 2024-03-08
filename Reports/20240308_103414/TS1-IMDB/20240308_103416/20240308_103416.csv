@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1-IMDB,,,,08-03-2024 10:34:30,08-03-2024 10:34:37,6.715s,FAILED
+,,,,,,,
+Test Cases/IMDB Website automation/TC1_AccessIMDB,,,,08-03-2024 10:34:30,08-03-2024 10:34:34,3.811s,FAILED
+"openBrowser("""")",,,,08-03-2024 10:34:31,08-03-2024 10:34:34,3.352s,FAILED
+,,,,,,,
+Test Cases/IMDB Website automation/TC2_Search for a movie name,,,,08-03-2024 10:34:34,08-03-2024 10:34:36,1.327s,FAILED
+"callTestCase(findTestCase(""IMDB Website automation/TC1_AccessIMDB""), [:], STOP_ON_FAILURE)",,,,08-03-2024 10:34:34,08-03-2024 10:34:36,1.163s,FAILED
+,,,,,,,
+Test Cases/IMDB Website automation/TC3_Access Menu,,,,08-03-2024 10:34:36,08-03-2024 10:34:37,1.270s,FAILED
+"callTestCase(findTestCase(""IMDB Website automation/TC1_AccessIMDB""), [:], STOP_ON_FAILURE)",,,,08-03-2024 10:34:36,08-03-2024 10:34:37,1.169s,FAILED

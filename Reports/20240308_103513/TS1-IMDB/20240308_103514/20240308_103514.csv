@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1-IMDB,Chrome 122.0.0.0,,,08-03-2024 10:35:26,08-03-2024 10:41:30,6m - 4.472s,FAILED
+,,,,,,,
+Test Cases/IMDB Website automation/TC1_AccessIMDB,Chrome 122.0.0.0,,,08-03-2024 10:35:26,08-03-2024 10:40:30,5m - 3.722s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,08-03-2024 10:35:27,08-03-2024 10:35:30,2.989s,PASSED
+"navigateToUrl(""https://www.imdb.com/"")",Chrome 122.0.0.0,,,08-03-2024 10:35:30,08-03-2024 10:40:30,5m - 0.421s,FAILED
+,,,,,,,
+Test Cases/IMDB Website automation/TC2_Search for a movie name,Chrome 122.0.0.0,,,08-03-2024 10:40:30,08-03-2024 10:41:00,30.138s,PASSED
+"callTestCase(findTestCase(""IMDB Website automation/TC1_AccessIMDB""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,08-03-2024 10:40:30,08-03-2024 10:40:49,18.601s,PASSED
+"setText(findTestObject(""IMDB/Home page/input_Advanced Search_q""), ""Otto"")",Chrome 122.0.0.0,,,08-03-2024 10:40:49,08-03-2024 10:40:49,0.743s,PASSED
+"click(findTestObject(""Object Repository/IMDB/Home page/svg_Advanced Search_ipc-icon ipc-icon--magnify""))",Chrome 122.0.0.0,,,08-03-2024 10:40:49,08-03-2024 10:40:59,9.747s,PASSED
+waitForPageLoad(5),Chrome 122.0.0.0,,,08-03-2024 10:40:59,08-03-2024 10:40:59,0.146s,PASSED
+"verifyTextPresent(""A Man Called Otto"", false)",Chrome 122.0.0.0,,,08-03-2024 10:40:59,08-03-2024 10:41:00,0.473s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,08-03-2024 10:41:00,08-03-2024 10:41:00,0.314s,PASSED
+,,,,,,,
+Test Cases/IMDB Website automation/TC3_Access Menu,Chrome 122.0.0.0,,,08-03-2024 10:41:00,08-03-2024 10:41:30,30.376s,PASSED
+"callTestCase(findTestCase(""IMDB Website automation/TC1_AccessIMDB""), [:], STOP_ON_FAILURE)",Chrome 122.0.0.0,,,08-03-2024 10:41:00,08-03-2024 10:41:29,29.071s,PASSED
+"click(findTestObject(""Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/Menu Hamburger""))",Chrome 122.0.0.0,,,08-03-2024 10:41:29,08-03-2024 10:41:30,0.377s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/span_MoviesRelease""))",Chrome 122.0.0.0,,,08-03-2024 10:41:30,08-03-2024 10:41:30,0.553s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/IMDB/Page_IMDb Ratings, Reviews, and Where to Wa_0644cb/Movies div""), 1)",Chrome 122.0.0.0,,,08-03-2024 10:41:30,08-03-2024 10:41:30,0.293s,PASSED
